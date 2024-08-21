@@ -30,6 +30,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'rinterio-primary': '#ABEF5F',
               }
             }
           }
@@ -38,7 +39,70 @@
 </head>
 <body class="font-manrope">
     <!-- Header section -->
-     <header></header>
+     <header class="bg-gradient-to-b from-gray-100 to-white mb-20">
+      <div  class="mx-10 lg:mx-32">
+           <!-- Nav start here -->
+      <div class="navbar pt-5 ">
+        <div class="lg:navbar-start">          
+          <h2 class="font-extrabold text-4xl md:flex gap-3"><i class="fa-solid fa-arrow-right -rotate-45 bg-rinterio-primary rounded-full p-1"></i> Rinterio</h2>
+        </div>
+        <div class="navbar-center hidden lg:ml-28 lg:flex">
+          <ul class="menu menu-horizontal px-1 font-extrabold">
+            <li><a>Home</a></li>
+            <li><a>Service </a></li>
+            <li><a>Portfolio </a></li>
+            <li><a>Blog </a></li>
+            <li><a>Contact Us </a></li>           
+          </ul>
+        </div>
+        <div class="navbar-end space-x-5">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Home</a></li>
+                  <li><a>Service</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+             <a class="bg-white text-2xl rounded-full p-3  hidden md:flex" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+
+             <a class="bg-white text-2xl rounded-full p-3  hidden md:flex" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+
+            <a class="btn bg-rinterio-primary font-extrabold hidden md:flex">Book Consult <i class="fa-solid fa-arrow-right text-white bg-black rounded-full p-1 -rotate-45"></i></a>           
+       </div>
+      </div>
+
+      <!-- banner section -->
+       <!-- image -->
+       <div>
+        <img class="mx-auto my-5" src="./assets/banner.png" alt="">
+       </div>
+    <!-- text -->
+     <div class="text-center space-y-8">
+        <h1 class="font-extrabold text-4xl lg:text-5xl">A barn house of this design has a <br> striking appearance</h1>
+        <p class="text-sm font-semibold md:w-2/3 mx-auto text-gray-500">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+        
+        <button class="bg-rinterio-primary bg-opacity-60 text-base rounded-3xl font-semibold py-1 px-4">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-rinterio-primary rounded-full p-2"></i></button>
+     </div>
+      </div>
+     </header>
 
      <!-- Main section -->
       <main></main>
