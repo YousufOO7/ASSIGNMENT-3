@@ -52,12 +52,12 @@
           <h2 class="font-extrabold text-4xl flex  gap-3"><i class="fa-solid fa-arrow-right -rotate-45 bg-rinterio-primary rounded-full p-1"></i> Rinterio</h2>
         </div>
         <div class="navbar-center hidden lg:ml-28 lg:flex">
-          <ul class="menu menu-horizontal px-1 font-extrabold">
-            <li><a>Home</a></li>
-            <li><a>Service </a></li>
-            <li><a>Portfolio </a></li>
-            <li><a>Blog </a></li>
-            <li><a>Contact Us </a></li>           
+          <ul class="gap-5 menu-horizontal px-1 ">
+            <li><a class="hover:font-extrabold" href="#">Home</a></li>
+            <li><a class="hover:font-extrabold" href="#">Service</a></li>
+            <li><a class="hover:font-extrabold" href="#">Portfolio</a></li>
+            <li><a class="hover:font-extrabold" href="#">Blog</a></li>
+            <li><a class="hover:font-extrabold" href="#">Contact Us</a></li>           
           </ul>
         </div>
         <div class="navbar-end space-x-5">
@@ -90,7 +90,7 @@
 
              <a class="bg-white text-2xl rounded-full p-3  hidden md:flex" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
 
-            <a class="btn bg-rinterio-primary font-extrabold hidden md:flex">Book Consult <i class="fa-solid fa-arrow-right text-white bg-black rounded-full p-1 -rotate-45"></i></a>           
+            <a class=" p-3 rounded-lg bg-rinterio-primary font-extrabold hidden md:flex">Book Consult <i class="fa-solid fa-arrow-right text-white bg-black rounded-full p-1 -rotate-45 ml-2"></i></a>           
        </div>
       </div>
 
@@ -110,7 +110,7 @@
      </header>
 
      <!-- Main section -->
-      <main>
+      <main class="bg-base-200 lg:bg-white">
         <!-- We design thoughtful section -->
          <section class="bg-base-200">
             <div class="mx-10 lg:mx-32 ">
@@ -214,6 +214,73 @@
                 </div>
                </div>
           </section>
+
+          <!-- Our Latest Portfolio section -->
+           <section class="mx-10 lg:mx-32 mb-20">
+            <!-- Button & Text -->
+            <div class="text-center mb-5">
+              <a class=" bg-rinterio-primary bg-opacity-40 font-bold px-3 py-1 text-sm rounded-xl" href="#"><i class="fa-solid fa-arrow-right"></i>Explore our Latest works</a>
+          </div>
+             <div class="text-center space-y-5">
+              <h3 class="text-4xl font-extrabold">Our Latest Portfolio</h3>
+              <p class="font-semibold text-sm lg:w-2/3 lg:mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+             </div>
+             <!-- image card 1 -->
+              <div class="grid grid-cols-1 lg:grid-cols-3  mt-10 gap-5">
+                  <!-- card 1 -->
+                  <div class="lg:flex border p-4 rounded-lg lg:col-span-2 gap-5 bg-white">
+                    <img class="mx-auto lg:mx-0"
+                    src="./assets/img1.png"
+                    alt="Movie" />
+                    <div class="space-y-4">
+                      <h2 class="font-extrabold mt-4 lg:mt-0 text-xl">Commercial</h2>
+                      <p class="text-sm">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                      <button class="text-base rounded-3xl font-extrabold py-1 px-4">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-rinterio-primary rounded-full p-2 mx-1"></i></button>
+                    </div>
+                  </div>
+                  <!-- card 2 -->
+                   <div class="border rounded-lg bg-white">
+                    <img class="my-4 lg:mt-4 mx-auto" src="./assets/img2.png" alt="">
+                   </div>
+              </div>
+
+              <!-- image card 2 -->
+              <div class="grid grid-cols-1 lg:grid-cols-4  mt-10 pb-20 gap-5">               
+                 <!-- hidden image 1 -->
+                 <div class="border rounded-xl lg:hidden bg-white">
+                  <img class="my-4 lg:mt-6 mx-auto" src="./assets/img5.png" alt="">
+                 </div>
+                  <!-- hidden image 2 -->
+                  <div class="lg:hidden bg-white p-4">
+                    <img class="mx-auto lg:mx-0"
+                    src="./assets/img4.png"
+                    alt="Movie" />
+                    <div class="space-y-4">
+                      <h2 class="font-extrabold mt-4 lg:mt-0 text-xl">Commercial</h2>
+                      <p class="text-sm">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                      <button class="text-base rounded-3xl font-extrabold py-1 px-4">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-rinterio-primary rounded-full p-2 mx-1"></i></button>
+                    </div>
+                  </div>
+                   <!-- card 1 -->
+                <div class="border rounded-xl bg-white">
+                  <img class="my-4 lg:mt-6 mx-auto" src="./assets/img3.png" alt="">
+                 </div>
+                <div class="hidden md:block lg:flex border p-4 rounded-lg lg:col-span-2 gap-5 bg-white">
+                  <img class="mx-auto lg:mx-0"
+                  src="./assets/img4.png"
+                  alt="Movie" />
+                  <div class="space-y-4">
+                    <h2 class="font-extrabold mt-4 lg:mt-0 text-xl">Commercial</h2>
+                    <p class="text-sm">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                    <button class="text-base rounded-3xl font-extrabold py-1 px-4">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-rinterio-primary rounded-full p-2 mx-1"></i></button>
+                  </div>
+                </div>
+                <!-- card 2 -->
+                 <div class="border rounded-xl bg-white">
+                  <img class="my-4 lg:mt-6 mx-auto" src="./assets/img5.png" alt="">
+                 </div>
+            </div>
+           </section>
       </main>
 
       <!-- Footer section -->
